@@ -1,0 +1,141 @@
+* {
+    margin: 0px; /* ✅ */
+    padding: 0px; /* ✅ */
+}
+
+body {
+    display: flex;
+}
+
+.card {
+    /* height: 800px;  */ /* ✅ */
+    width: 500px; /* ✅ */
+    border: 1px solid darkgrey; /* ✅ */
+    border-radius: 20px; /* ✅ */
+    /* position: relative; */
+    /* top: 10vh; */
+    /* left: 35vw; */
+    /* background-color: greenyellow; */
+    background-color: #6ba1181f;
+    /* margin: auto auto; */
+    /* min-width: 400px; */
+    /* min-height: 600px; */
+    /* box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.8); */
+    box-shadow: 20px 25px 12px 0px rgb(16 76 41 / 80%);
+    /* box-shadow: inset 5px 5px 10px rgba(0, 0, 0, 0.5); */
+    /* box-shadow: 0 0 20px rgba(255, 215, 0, 0.8); */
+    /* box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5),  */
+        /* -5px -5px 15px rgba(0, 0, 0, 0.3); */
+    padding: 0px 0px 100px 0px; /* ✅ */
+    margin: 100px;
+}
+
+.image {
+    /* height: 45%; */
+    /* width: 96%; */
+    /* border: 2px solid orangered; */
+    /* border-radius: 25px; */
+    /* position: absolute; */
+    /* margin: auto; */
+    /* margin: 5px; */
+    /* left: 2%; */
+    /* top: 10px; */
+    padding: 10px; /* ✅ */
+}
+
+.image > img {
+    /* height: 100%; */
+    /* width: 100%; */
+    border-radius: 20px; /* ✅ */
+    /* box-shadow: 20px 20px 20px darkgrey; */
+    /* box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.5) */
+}
+
+.keywords {
+    /* height: 5%; */
+    /* width: 100%; */
+    /* border: 2px solid green; */
+    /* position: absolute; */
+    /* top: 46%; */
+    /* display: flex; */
+    padding: 15px 25px 15px 25px; /* ✅ */
+}
+
+.keywords span {
+    /* position: absolute; */
+    /* top: 30%; */
+    /* border: 2px solide blue; */
+    background-color: white;
+    padding: 5px 10px; /* ✅ */
+    border: 1px solid darkgrey; /* ✅ */
+    border-radius: 20px; /* ✅ */
+    /* display: inline-block; */
+    /* color: darkgrey; */
+    color: rgb(134, 133, 133);
+    /* font-weight: bold; */
+    font-family: sans-serif; /* ✅ */
+    font-size: 14px; /* ✅ */
+    /* font-weight: 100; */
+}
+
+.content {
+    /* width: 90%; */
+    /* height: 10%; */
+    /* position: absolute; */
+    /* top: 55%; */
+    /* border: 2px solid darkmagenta; */
+    /* padding: 5%; */
+    padding: 25px; /* ✅ */
+}
+
+.content h1 {
+    /* position: absolute; */
+    /* padding: 0px; */
+    /* top: -50%; */
+    font-family: sans-serif; /* ✅ */
+}
+
+.content p {
+    /* position: absolute; */
+    /* top: 100%; */
+    color: rgb(134, 133, 133); /* ✅ */
+    font-family: sans-serif; /* ✅ */
+    font-size: 16px; /* ✅ */
+    font-weight: 500;
+    /* white-space: 50px; */
+    line-height: 30px;
+    word-spacing: 1px;
+    /* letter-spacing: 1px; */
+    padding: 15px 0px;
+}
+
+.button {
+    /* width: 30%; */
+    /* border: 1px solid mediumseagreen; */
+    /* position: absolute; */
+    /* bottom: 5%; */
+    /* left: 30%; */
+    text-align: center; /* ✅ */
+    padding: 15px;
+}
+
+.button button {
+    color: darkgreen; /* ✅ */
+    /* border: 3px dotted black; */
+    padding: 10px 15px; /* ✅ */
+    /* border: hidden; */
+    border: none;
+    border-radius: 20px; /* ✅ */
+    background-color: rgba(0, 100, 0, 0.177); /* ✅ */
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 12px; /* ✅ */
+
+    cursor: pointer;
+}
+
+.button button:hover {
+    color: white;
+    /* background-color: rgb(108, 167, 108); */
+    background-color: rgba(0, 100, 0, 0.5);
+}
