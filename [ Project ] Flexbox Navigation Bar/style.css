@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header {
+    background-color: white;
+    position: sticky;
+    top: 0;
+    padding: 20px 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.content ul {
+    display: flex;
+    gap: 30px;
+}
+
+.content ul li {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    cursor: pointer;
+}
+
+.content ul li:hover svg {
+    transform: rotate(-180deg);
+}
+
+.search {
+    transform: rotate(90deg);
+}
